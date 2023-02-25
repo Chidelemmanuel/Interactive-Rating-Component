@@ -44,6 +44,23 @@ p {
     padding: 10px;
 }
 
+a {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
 @media (min-width: 1024px) {
     
     .interactive {
