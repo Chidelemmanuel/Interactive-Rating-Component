@@ -44,6 +44,7 @@ p {
     color: hsl(217, 12%, 63%);
     font-size: 15px;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 
 .digit {
@@ -60,6 +61,16 @@ p {
     margin: 2px 5px;
 }
 
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.number:active {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
 button {
     cursor: pointer;
     width: 100%;
@@ -71,6 +82,11 @@ button {
     outline: none;
     border-radius: 20px;
     font-weight: 700;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
 }
 
 .attribution { 
